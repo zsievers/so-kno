@@ -1,0 +1,62 @@
+/* navbar */
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #d56d3a;
+}
+
+a:hover {
+    color: #444;
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.brandTitle {
+    font-family: 'Sansita Swashed', cursive;
+    margin-bottom: 0px;
+}
+
+.banner {
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    color: #444;
+    text-align: center;
+}
+
+/* grid */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.grid>article {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.grid>article img {
+    max-width: 100%;
+}
+
+.text {
+    padding: 0 20px 20px;
+}
+
+.text>button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+.grid>article:nth-child(1) {
+    grid-column: span 2;
+    grid-row: span 2;
+}

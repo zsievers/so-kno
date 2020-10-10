@@ -1,0 +1,38 @@
+/********************* Grid **************************/
+.container {
+    margin: 0 auto;
+}
+
+.brandTitle {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 50px;
+    margin-bottom: 0px;
+    color: #d56d3a;
+}
+
+/********************** NavBar ************************/
+
+
+a {
+    text-decoration: none;
+    padding: 0 20px 0 20px;
+    font-size: 20px;
+    color: #d56d3a;
+}
+
+a:hover {
+    color: #444;
+    text-decoration: none;
+}
+
+/**************** Overlay Container *********************/
+
+.banner {
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+
+}
+
+.card {
+    margin-bottom: 10px;
+}
