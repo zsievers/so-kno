@@ -25,11 +25,11 @@
     <title>So Kno | Local Market</title>
   </head>
   <body>
+    <!-- nav -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <a href="../index.html" class="brandTitle">
-        <img src="./assets/img/logo.PNG" alt="" />
+        <img src="./assets/img/logo.PNG" alt="logo" />
       </a>
-
       <button
         class="navbar-toggler"
         data-toggle="collapse"
@@ -38,7 +38,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="mainNavbar">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto justify-content-end">
           <li class="nav-item">
             <a href="our-story.html" class="nav-link">Our Story</a>
           </li>
@@ -59,29 +59,42 @@
     </nav>
 
     <div class="banner">
-      <h3>Coffee | Breakfast | Ice Cream | Deli</h3>
+      <h3>Coffee | Breakfast | Ice Cream | Hot Dogs</h3>
     </div>
 
-    <main class="grid">
-      <article>
-        <img src="./assets/img/drinkMenu.jpg" alt="Sample photo" />
-      </article>
-      <article>
-        <img src="./assets/img/coffeeCups.jpg" alt="Sample photo" />
-      </article>
-      <article>
-        <img src="./assets/img/foodMenu.jpg" alt="Sample photo" />
-      </article>
-      <article>
-        <img src="./assets/img/foodSpread.jpg" alt="Sample photo" />
-      </article>
-      <article>
-        <img src="./assets/img/iceCream.jpg" alt="Sample photo" />
-      </article>
-      <article>
-        <img src="./assets/img/icedCoffee.jpg" alt="Sample photo" />
-      </article>
-    </main>
+    <div class="container">
+      <div class="grid">
+        <article>
+          <img src="./assets/img/drinkMenu.jpg" alt="Sample photo" />
+        </article>
+        <article>
+          <img src="./assets/img/iceCream.jpg" alt="Sample photo" />
+        </article>
+        <article>
+          <img src="./assets/img/foodMenu.jpg" alt="Sample photo" />
+        </article>
+      </div>
+
+      <div class="row">
+        <div class="col-4">
+          <img
+            src="./assets/img/foodSpread.jpg"
+            class="img-fluid"
+            alt="Responsive image"
+          />
+        </div>
+        <div class="col-4">
+          <img
+            src="./assets/img/float.jpg"
+            class="img-fluid"
+            alt="Responsive image"
+          />
+        </div>
+        <div class="col-4">
+          <img src="./assets/img/icedCoffee.jpg" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>

@@ -5,9 +5,7 @@
 
 .brandTitle {
     font-family: 'Sansita Swashed', cursive;
-    font-size: 50px;
     margin-bottom: 0px;
-    color: #d56d3a;
 }
 
 /********************** NavBar ************************/
@@ -17,7 +15,6 @@ a {
     text-decoration: none;
     padding: 0 20px 0 20px;
     font-size: 20px;
-    color: #d56d3a;
 }
 
 a:hover {
@@ -35,4 +32,9 @@ a:hover {
 
 .card {
     margin-bottom: 10px;
+}
+
+.row {
+    padding-left: 10px;
+    padding-right: 10px;
 }
