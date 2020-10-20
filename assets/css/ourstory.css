@@ -1,0 +1,100 @@
+.navbar-toggler {
+    margin-left: auto;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+/* links */
+a {
+    text-decoration: none;
+    padding: 0 20px 0 20px;
+    color: #000000;
+}
+
+a:hover {
+    color: #444;
+    text-decoration: none;
+}
+
+/* overlay container */
+.overlayHeader {
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 97.5%;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.overlayContent {
+    position: absolute;
+    bottom: 47%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 22%;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* footer */
+.card-group {
+    margin: 20px 20px 0px 20px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.card {
+   border-right: none;
+   border-left: none;
+}
+
+.card-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    list-style: none;
+}
+.links {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0px;
+    padding-top: 30px;
+
+}
+
+.submit-btn {
+    margin-bottom: 2px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #b4b4b4;
+    padding: 10px;
+    border: 1px solid #b4c3b6;
+    cursor: pointer;
+    color: #292d29;
+    text-align: center;
+    
+    
+}
