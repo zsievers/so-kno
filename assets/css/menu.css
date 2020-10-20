@@ -1,13 +1,27 @@
-/* navbar */
+body {
+    background-color: #e6e0d9;
+}
+
+.navbar-toggler {
+    margin-left: auto;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+/* links */
+
 a {
     text-decoration: none;
-    font-size: 20px;
     padding: 0 20px 0 20px;
+    color: #444;
+    transition: 0.3s;
+    opacity: 0.8;
 }
 
 a:hover {
+    opacity: 1;
     color: #444;
-    text-decoration: none;
 }
 
 .container {
@@ -59,6 +73,68 @@ a:hover {
     height: 400px;
     width: 100%;
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+/* footer */
+.card-group {
+    background: #e6e0d9;
+    /* margin: 20px 20px 0px 20px; */
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.card {
+   border-right: none;
+   border-left: none;
+}
+
+.card-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    list-style: none;
+}
+.links {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0px;
+    padding-top: 30px;
+
+}
+
+.submit-btn {
+    margin-bottom: 2px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #b4b4b4;
+    padding: 10px;
+    border: 1px solid #b4c3b6;
+    cursor: pointer;
+    color: #292d29;
+    text-align: center;
+    transition: 0.3s;
+    opacity: 0.6; 
+}
+
+.submit-btn:hover {
+    opacity: 1;
+}
+
+.form {
+    padding: 7vh 0 0 7vh;
+}
+
+.form-control:focus {
+    background-color: #fff;
+    outline: 0;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 0 0.2rem rgba(202, 222, 243, 0.25);
 }
 
 

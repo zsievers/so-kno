@@ -9,17 +9,29 @@
 }
 
 /********************** NavBar ************************/
+body {
+    background-color: #ffffff;
+}
 
+.navbar-toggler {
+    margin-left: auto;
+}
+
+.nav-link {
+    font-size: 20px;
+}
 
 a {
     text-decoration: none;
     padding: 0 20px 0 20px;
-    font-size: 20px;
+    color: #444;
+    transition: 0.3s;
+    opacity: 0.8;
 }
 
 a:hover {
+    opacity: 1;
     color: #444;
-    text-decoration: none;
 }
 
 /**************** Overlay Container *********************/
@@ -37,4 +49,70 @@ a:hover {
 .row {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+
+/* footer */
+
+.card-group {
+    background: #ffffff;
+    /* margin: 20px 20px 0px 20px; */
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card {
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+ }
+
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.card-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    list-style: none;
+}
+.links {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0px;
+    padding-top: 30px;
+
+}
+
+.submit-btn {
+    margin-bottom: 2px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #b4b4b4;
+    padding: 10px;
+    border: 1px solid #b4c3b6;
+    cursor: pointer;
+    color: #292d29;
+    text-align: center;
+    transition: 0.3s;
+    opacity: 0.6; 
+}
+
+.submit-btn:hover {
+    opacity: 1;
+}
+
+.form {
+    padding: 7vh 0 0 7vh;
+}
+
+.form-control:focus {
+    background-color: #fff;
+    outline: 0;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 0 0.2rem rgba(202, 222, 243, 0.25);
 }

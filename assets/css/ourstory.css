@@ -1,3 +1,7 @@
+body {
+    background-color: #e6e0d9;
+}
+
 .navbar-toggler {
     margin-left: auto;
 }
@@ -10,12 +14,14 @@
 a {
     text-decoration: none;
     padding: 0 20px 0 20px;
-    color: #000000;
+    color: #444;
+    transition: 0.3s;
+    opacity: 0.8;
 }
 
 a:hover {
+    opacity: 1;
     color: #444;
-    text-decoration: none;
 }
 
 /* overlay container */
@@ -55,7 +61,8 @@ a:hover {
 
 /* footer */
 .card-group {
-    margin: 20px 20px 0px 20px;
+    background: #e6e0d9;
+    /* margin: 20px 20px 0px 20px; */
 }
 
 .card-body {
@@ -95,6 +102,21 @@ a:hover {
     cursor: pointer;
     color: #292d29;
     text-align: center;
-    
-    
+    transition: 0.3s;
+    opacity: 0.6; 
+}
+
+.submit-btn:hover {
+    opacity: 1;
+}
+
+.form {
+    padding: 7vh 0 0 7vh;
+}
+
+.form-control:focus {
+    background-color: #fff;
+    outline: 0;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 0 0.2rem rgba(202, 222, 243, 0.25);
 }
