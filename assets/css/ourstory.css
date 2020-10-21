@@ -1,5 +1,6 @@
 body {
-    background-color: #e6e0d9;
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-toggler {
@@ -70,7 +71,6 @@ a:hover {
 }
 
 .card-title {
-    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
 .card {
@@ -79,7 +79,6 @@ a:hover {
 }
 
 .card-text {
-    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     list-style: none;
 }
@@ -95,7 +94,6 @@ a:hover {
 
 .submit-btn {
     margin-bottom: 2px;
-    font-family: 'Montserrat', sans-serif;
     background-color: #b4b4b4;
     padding: 10px;
     border: 1px solid #b4c3b6;

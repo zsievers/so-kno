@@ -1,4 +1,9 @@
 /********************* Grid **************************/
+body {
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .container {
     margin: 0 auto;
     width: 100%;
@@ -10,7 +15,6 @@
 }
 
 .brandTitle {
-    font-family: 'Sansita Swashed', cursive;
     font-size: 50px;
     margin-bottom: 0px;
     color: #d56d3a;
@@ -25,22 +29,27 @@ li {
     margin-left: auto;
 }
 
+.nav-link {
+    font-size: 20px;
+}
+
 a {
     text-decoration: none;
     padding: 0 20px 0 20px;
-    font-size: 20px;
-    color: #000000;
+    color: #444;
+    transition: 0.3s;
+    opacity: 0.8;
 }
 
 a:hover {
+    opacity: 1;
     color: #444;
-    text-decoration: none;
 }
+
 
 .hours {
     margin-top: 80px;
     font-size: 25px;
-    font-family: 'Montserrat', sans-serif;
     color: #000000
 }
 
@@ -50,11 +59,61 @@ a:hover {
 
 }
 
-.footer {
-    position: fixed;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    padding: 10px 0 10px 0;
-    background-color: rgb(148, 148, 148);
+/* footer */
+.card-group {
+    background: #e6e0d9;
+    /* margin: 20px 20px 0px 20px; */
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 20px;
+}
+.card {
+   border-right: none;
+   border-left: none;
+}
+
+.card-text {
+    font-size: 14px;
+    list-style: none;
+}
+.links {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0px;
+    padding-top: 30px;
+
+}
+
+.submit-btn {
+    margin-bottom: 2px;
+    background-color: #b4b4b4;
+    padding: 10px;
+    border: 1px solid #b4c3b6;
+    cursor: pointer;
+    color: #292d29;
+    text-align: center;
+    transition: 0.3s;
+    opacity: 0.6; 
+}
+
+.submit-btn:hover {
+    opacity: 1;
+}
+
+.form {
+    padding: 7vh 0 0 7vh;
+}
+
+.form-control:focus {
+    background-color: #fff;
+    outline: 0;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 0 0.2rem rgba(202, 222, 243, 0.25);
 }
