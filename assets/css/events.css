@@ -29,7 +29,8 @@ a {
 
 a:hover {
     opacity: 1;
-    color: #444;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
 }
 
 
