@@ -121,12 +121,44 @@ a:hover {
 /* IPHONE X  */
 
 /* extra small devices (phones, 385 and down */
-@media only screen and (max-width: 385px) {
+
+@media only screen and (max-width: 350px) {
+     /* navbar */
+     .brandTitle {
+        width: 220px;
+    }
+    
+    a {
+        margin: auto;
+    }
+
+    .navbar-toggler {
+        padding: none;
+        font-size: 1rem;
+    }
+
+    /* overlay */
+    .header {
+        display: none;
+    }
+
+    .overlayHeader {
+       display: none;
+    }
+
+    /* footer */
+    ul {
+        padding: 10px;
+        margin: auto 0;
+    }
+}
+
+@media all and (max-width: 375px) and (min-width: 351px) {
 
     /* navbar */
     .brandTitle {
-        width: 257px;
-        padding-left: 55px;
+        width: 253px;
+        margin-left: 10%;
     }
     
     a {
@@ -153,16 +185,14 @@ a:hover {
         margin: auto 0;
     }
     
-
-   
 }
 
-@media all and (max-width: 450px) and (min-width: 386px) {
+@media all and (max-width: 450px) and (min-width: 376px) {
 
     /* navbar */
     .brandTitle {
-        width: 257px;
-        padding-left: 55px;
+        width: 253px;
+        margin-left: 10%;
     }
     
     a {
@@ -196,7 +226,7 @@ a:hover {
     /* navbar */
     .brandTitle {
         width: 257px;
-        margin-left: 80px;
+        margin-left: 22%;
     }
     
     a {
@@ -227,8 +257,8 @@ a:hover {
 @media all and (max-width: 767px) and (min-width: 551px) {
       /* navbar */
       .brandTitle {
-        width: 257px;
-        margin-left: 100px;
+        width: 290px;
+        margin-left: 22%;
     }
     
     a {
