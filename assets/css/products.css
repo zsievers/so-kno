@@ -49,8 +49,7 @@ a:hover {
 }
 
 .row {
-    padding-left: 10px;
-    padding-right: 10px;
+    margin: auto 0;
 }
 
 
@@ -114,4 +113,160 @@ a:hover {
     outline: 0;
     border: 1px solid #ccc;
     box-shadow: 0 0 0 0.2rem rgba(202, 222, 243, 0.25);
+}
+
+
+
+@media only screen and (max-width: 350px) {
+    /* navbar */
+    .brandTitle {
+       width: 220px;
+   }
+   
+   a {
+       margin: auto;
+   }
+
+   .banner {
+    font-size: 35px;
+   }
+
+   .navbar-toggler {
+       padding: none;
+       font-size: 1rem;
+   }
+
+
+   /* footer */
+   ul {
+       padding: 10px;
+       margin: auto 0;
+   }
+}
+
+@media all and (max-width: 375px) and (min-width: 351px) {
+
+   /* navbar */
+   .brandTitle {
+       width: 228px;
+       margin-left: 10%;
+   }
+   
+   a {
+       margin: auto;
+   }
+
+   .navbar-toggler {
+       padding: none;
+       font-size: 1rem;
+   }
+
+   .banner {
+       font-size: 35px;
+   }
+
+   /* footer */
+   ul {
+       padding: 10px;
+       margin: auto 0;
+   }
+   
+}
+
+@media all and (max-width: 450px) and (min-width: 376px) {
+
+   /* navbar */
+   .brandTitle {
+       width: 253px;
+       margin-left: 10%;
+   }
+   
+   a {
+       margin: auto;
+   }
+
+   .navbar-toggler {
+       padding: none;
+       font-size: 1rem;
+   }
+   
+
+   /* footer */
+   ul {
+       padding: 10px;
+       margin: auto 0;
+   }
+   
+
+}
+
+@media all and (max-width: 550px) and (min-width: 451px) {
+   /* navbar */
+   .brandTitle {
+       width: 265px;
+       margin-left: 11%;
+   }
+   
+   a {
+       margin: auto;
+   }
+
+   .navbar-toggler {
+       padding: none;
+       font-size: 1rem;
+   }
+
+
+   /* footer */
+   ul {
+       padding: 10px;
+       margin: auto 0;
+   }
+}
+
+@media all and (max-width: 767px) and (min-width: 551px) {
+     /* navbar */
+     .brandTitle {
+       width: 300px;
+       margin-left: 20%;
+   }
+   
+   a {
+       margin: auto;
+   }
+
+   .navbar-toggler {
+       padding: none;
+       font-size: 1rem;
+   }
+
+   
+   /* footer */
+   ul {
+       padding: 10px;
+       margin: auto 0;
+   }
+}
+
+@media all and (max-width: 992px) and (min-width: 768px) {
+      /* navbar */
+      .brandTitle {
+       width: 280px;
+   }
+   
+   a {
+       margin: auto;
+   }
+
+   .navbar-toggler {
+       padding: none;
+       font-size: 1rem;
+   }
+
+   
+   /* footer */
+   ul {
+       padding: 10px;
+       margin: auto 0;
+   }
 }
