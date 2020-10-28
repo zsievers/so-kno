@@ -102,6 +102,10 @@ a:hover {
     width: 100%;
 }
 
+.live-heading {
+    font-size: 35px;
+}
+
 .info {
     margin-top: 90px;
     font-size: 22px;
@@ -169,6 +173,336 @@ a:hover {
 }
 
 /* Add media queries for smaller screens */
+
+
+@media only screen and (max-width: 350px) {
+    /* navbar */
+    .brandTitle {
+       width: 220px;
+   }
+   
+   a {
+       margin: auto;
+   }
+
+   .navbar-toggler {
+       padding: none;
+       font-size: 1rem;
+   }
+
+   .col-5 {
+       max-width: 100%;
+   }
+
+   .col-7 {
+    max-width: 100%;
+   }
+
+   .row {
+    display: inline-block;
+   }
+
+   .bandImg {
+    width: 100%;
+    }
+
+    .live-heading {
+        font-size: 25px;
+    }
+
+    .info {
+        margin-top: 20px;
+        font-size: 15px;
+
+    }
+
+    .month {
+        padding: 10px 25px;
+        width: 100%;
+        background: #d56d3a;
+        text-align: center;
+    }
+
+   /* footer */
+   ul {
+       padding: 10px;
+       margin: auto 0;
+   }
+}
+
+@media all and (max-width: 375px) and (min-width: 351px) {
+
+   /* navbar */
+   .brandTitle {
+       width: 228px;
+       margin-left: 10%;
+   }
+   
+   a {
+       margin: auto;
+   }
+
+   .navbar-toggler {
+       padding: none;
+       font-size: 1rem;
+   }
+
+   .col-5 {
+    max-width: 100%;
+}
+
+.col-7 {
+ max-width: 100%;
+}
+
+.row {
+ display: inline-block;
+}
+
+.bandImg {
+ width: 100%;
+ }
+
+ .live-heading {
+     font-size: 25px;
+ }
+
+ .info {
+     margin-top: 20px;
+     font-size: 15px;
+
+ }
+
+ .month {
+     padding: 10px 25px;
+     width: 100%;
+     background: #d56d3a;
+     text-align: center;
+ }
+
+
+   /* footer */
+   ul {
+       padding: 10px;
+       margin: auto 0;
+   }
+   
+}
+
+@media all and (max-width: 450px) and (min-width: 376px) {
+
+   /* navbar */
+   .brandTitle {
+       width: 253px;
+       margin-left: 10%;
+   }
+   
+   a {
+       margin: auto;
+   }
+
+   .navbar-toggler {
+       padding: none;
+       font-size: 1rem;
+   }
+
+   .col-5 {
+    max-width: 100%;
+}
+
+.col-7 {
+ max-width: 100%;
+}
+
+.row {
+ display: inline-block;
+}
+
+.bandImg {
+ width: 100%;
+ }
+
+ .live-heading {
+     font-size: 25px;
+ }
+
+ .info {
+     margin-top: 20px;
+     font-size: 15px;
+
+ }
+
+ .month {
+     padding: 10px 25px;
+     width: 100%;
+     background: #d56d3a;
+     text-align: center;
+ }
+
+   
+
+   /* footer */
+   ul {
+       padding: 10px;
+       margin: auto 0;
+   }
+   
+
+}
+
+@media all and (max-width: 550px) and (min-width: 451px) {
+   /* navbar */
+   .brandTitle {
+       width: 265px;
+       margin-left: 11%;
+   }
+   
+   a {
+       margin: auto;
+   }
+
+   .navbar-toggler {
+       padding: none;
+       font-size: 1rem;
+   }
+
+   .col-5 {
+    max-width: 100%;
+    }
+
+    .col-7 {
+    max-width: 100%;
+    }
+
+    .row {
+    display: inline-block;
+    }
+
+    .bandImg {
+    width: 100%;
+    }
+
+    .live-heading {
+        font-size: 30px;
+    }
+
+    .info {
+        margin-top: 20px;
+        font-size: 17px;
+
+    }
+
+    .month {
+        padding: 10px 25px;
+        width: 100%;
+        background: #d56d3a;
+        text-align: center;
+    }
+
+
+   /* footer */
+   ul {
+       padding: 10px;
+       margin: auto 0;
+   }
+}
+
+@media all and (max-width: 767px) and (min-width: 551px) {
+     /* navbar */
+     .brandTitle {
+       width: 300px;
+       margin-left: 20%;
+   }
+   
+   a {
+       margin: auto;
+   }
+
+   .navbar-toggler {
+       padding: none;
+       font-size: 1rem;
+   }
+
+   .col-5 {
+    max-width: 100%;
+    }
+
+    .col-7 {
+    max-width: 100%;
+    }
+
+    .row {
+    display: inline-block;
+    }
+
+    .bandImg {
+    width: 100%;
+    }
+
+    .live-heading {
+        font-size: 32px;
+    }
+
+    .info {
+        margin-top: 20px;
+        font-size: 20px;
+
+    }
+
+    .month {
+        padding: 10px 25px;
+        width: 100%;
+        background: #d56d3a;
+        text-align: center;
+    }
+   
+   /* footer */
+   ul {
+       padding: 10px;
+       margin: auto 0;
+   }
+}
+
+@media all and (max-width: 992px) and (min-width: 768px) {
+      /* navbar */
+      .brandTitle {
+       width: 280px;
+   }
+   
+   a {
+       margin: auto;
+   }
+
+   .navbar-toggler {
+       padding: none;
+       font-size: 1rem;
+   }
+
+   .live-heading {
+    font-size: 35px;
+    }
+
+    .info {
+        margin-top: 25px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .month {
+        padding: 15px 50px;
+        width: 100%;
+        background: #d56d3a;
+        text-align: center;
+    }
+   
+   /* footer */
+   ul {
+       padding: 10px;
+       margin: auto 0;
+   }
+}
+
+
 @media screen and (max-width:720px) {
 
     .weekdays li,
