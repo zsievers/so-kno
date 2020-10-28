@@ -159,11 +159,7 @@ a:hover {
    }
 
    .overlayHours {
-    position: relative;
-    width: 100%;
-    margin-left: 14px;
-    font-size: 16px;
-    text-align: center;
+    display: none;
 }
 
    .mapWidget {
@@ -200,11 +196,7 @@ a:hover {
    }
 
    .overlayHours {
-    position: relative;
-    width: 100%;
-    margin-left: 14px;
-    font-size: 20px;
-    text-align: center;
+   display: none;
 }
 
    .mapWidget {
@@ -242,11 +234,7 @@ a:hover {
    }
    
    .overlayHours {
-    position: relative;
-    width: 100%;
-    margin-left: 14px;
-    font-size: 20px;
-    text-align: center;
+    display: none;
 }
 
    .mapWidget {
@@ -285,11 +273,7 @@ a:hover {
    }
 
    .overlayHours {
-    position: relative;
-    width: 100%;
-    margin-left: 14px;
-    font-size: 20px;
-    text-align: center;
+  display: none;
 }
 
    .mapWidget {
@@ -327,11 +311,7 @@ a:hover {
 
    
    .overlayHours {
-    position: relative;
-    width: 100%;
-    margin-left: 14px;
-    font-size: 20px;
-    text-align: center;
+    display: none;
 }
 
    .mapWidget {
