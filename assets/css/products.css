@@ -270,3 +270,16 @@ a:hover {
        margin: auto 0;
    }
 }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .header {
+        font-size: 35px;
+    }
+  } 
+
+/* extra large devices (laptops and desktops) 1200 and up */
+@media only screen and (min-width: 1200px) {
+    
+  }
+
