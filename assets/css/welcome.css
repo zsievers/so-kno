@@ -30,6 +30,17 @@ a:hover {
     font-weight: bolder;
 }
 
+.rights {
+    border: none;
+    padding-top: 10px;
+}
+
+.rights-text {
+    padding: 0px;
+    font-size: 12px;
+    text-align: center;
+}
+
 /* overlay container */
 .overlayHeader {
     position: absolute;
@@ -61,6 +72,7 @@ a:hover {
 /* footer */
 .card-group {
     background: #e6e0d9;
+    border: none;
     /* margin: 20px 20px 0px 20px; */
 }
 
